@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "django_gql_quick_start"
+version = "0.1.0"
+description = ""
+authors = ["Frank Warnock <fwarnock@nextdoor.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+django = "^3.0.8"
+graphene = "^2.1.8"
+graphene-django = "^2.12.1"
+psycopg2 = "^2.8.5"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
